@@ -24,9 +24,10 @@ public interface ApplicationComponent {
     @ApplicationContext Context context();
     Application application();
     RibotsService ribotsService();
+
+    //下面的都没有在module中提供provides，则在类的构造函数中实例化(构造函数必须要有inject)
     PreferencesHelper preferencesHelper();
     DatabaseHelper databaseHelper();
     DataManager dataManager();
     RxEventBus eventBus();
-
 }

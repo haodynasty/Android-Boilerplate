@@ -8,6 +8,12 @@ import android.content.pm.PackageManager;
 
 public final class AndroidComponentUtil {
 
+    /**
+     * open or disable component
+     * @param context
+     * @param componentClass
+     * @param enable
+     */
     public static void toggleComponent(Context context, Class componentClass, boolean enable) {
         ComponentName componentName = new ComponentName(context, componentClass);
         PackageManager pm = context.getPackageManager();

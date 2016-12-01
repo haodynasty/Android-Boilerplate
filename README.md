@@ -160,3 +160,6 @@ To quickly start a new project from this boilerplate follow the next steps:
     limitations under the License.
 ```
 
+## Link
+[English Blog Help](http://prog3.com/sbdm/blog/u011240877/article/details/50334823)
+[Chinese Blog Help](http://mp.weixin.qq.com/s?__biz=MzI3MDE0NzYwNA==&mid=403141523&idx=1&sn=678c986111dd5c2a5d2641481c796451&scene=19#wechat_redirect)

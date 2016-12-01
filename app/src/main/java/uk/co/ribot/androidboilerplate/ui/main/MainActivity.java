@@ -50,6 +50,7 @@ public class MainActivity extends BaseActivity implements MainMvpView {
 
         mRecyclerView.setAdapter(mRibotsAdapter);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        System.out.println("---"+mMainPresenter);
         mMainPresenter.attachView(this);
         mMainPresenter.loadRibots();
 
